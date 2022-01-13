@@ -66,6 +66,7 @@ namespace APIClientes.Repositories
                 return false;
             }
 
+            return false;
         }
 
         public async Task<CustomerDto> GetCustomerById(int id)
